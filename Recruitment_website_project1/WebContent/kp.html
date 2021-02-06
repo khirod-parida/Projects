@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body background="photo.jpg" style="background-repeat:no-repeat;background-size:100%">
+<h3 style="color:green;text-align:left"><a href="front.html">Home</a></h3>
+<form action="joburl" method="POST">
+
+<table border="0" align="center" bgcolor="transparent"  enctype="multipart/form-data">
+
+<tr>
+<td>Name:</td>
+<td><input type="text" name="name"></td>
+</tr>
+
+<tr>
+<td>Email:</td>
+<td><input type="text" name="email"></td>
+</tr>
+
+<tr>
+<td>Location:</td>
+<td><select name="loc">
+<option value="select">--select--</option>
+<option value="Bengaluru">Bengaluru</option>
+<option value="Chennai">Chennai</option>
+<option value="Kolkata">Kolkata</option>
+<option value="Mumbai">Mumbai</option>
+<option value="Delhi">Delhi</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Permanent Address:</td>
+<td>
+<textarea row="7" cols="7" placeholder="enter here" name="add"></textarea>
+</td>
+</tr>
+
+<tr>
+<td>Skill:</td>
+<td><input type="checkbox" name="skill">Java
+<input type="checkbox" name="skill">Html
+<input type="checkbox" name="skill">Java Script
+</td>
+</tr>
+
+<tr>
+<td>Upload Resume:</td>
+<td><input type="file" name="resume"></td>
+</tr>
+
+<tr>
+<td>Upload Photo:</td>
+<td><input type="file" name="photo"></td>
+</tr>
+
+<tr>
+<td>Gender:</td>
+<td>
+<input type="radio" name="gender" value="MALE">MALE
+<input type="radio" name="gender" value="FEMALE">FEMALE
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+</td>
+</tr>
+
+
+</body>
+</html>
